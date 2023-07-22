@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="h-32 w-full object-cover lg:h-48" />
-	
+
     <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
       <div class="-mt-12 sm:-mt-16 sm:flex sm:items-end sm:space-x-5">
         <div class="flex">
@@ -12,29 +12,30 @@
           />
         </div>
         <div
-          class="mt-6 sm:flex sm:min-w-0 sm:flex-1 sm:items-center sm:justify-end sm:space-x-6 sm:pb-1"
+          class="mt-1 sm:flex sm:min-w-0 sm:flex-1 sm:items-center sm:justify-end sm:space-x-6 sm:pb-1 mb-6"
         >
-          <div class="mt-6 min-w-0 flex-1 sm:hidden md:block">
-            <h1 class="truncate text-2xl font-bold text-gray-900">
-              {{ profile.name }}
-            </h1>
-          </div>
-          <div
-            class="mt-6 flex flex-col justify-stretch space-y-3 sm:flex-row sm:space-x-4 sm:space-y-0"
-          >
+          <span class="relative inline-flex">
             <a
               type="button"
-			  :href="'mailto:' + profile.email"
-			  target="_blank"
-              class="inline-flex justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
+              :href="'mailto:' + profile.email"
+              target="_blank"
+              class="inline-flex items-center px-4 py-2 font-semibold leading-6 text-sm shadow rounded-md hover:text-gray-900 hover:bg-zinc-200 transition ease-in-out duration-75 ring-1 ring-slate-900/10 dark:ring-slate-200/20  delay-150 hover:-translate-y-1 hover:scale-110 bg-zinc-800 text-zinc-100 md:transition-all"
             >
               <EnvelopeIcon
-                class="-ml-0.5 mr-1.5 h-5 w-5 text-gray-400"
+                class="-ml-0.5 mr-1.5 h-5 w-5 text-yellow-600"
                 aria-hidden="true"
               />
-              <span>Message</span>
+              Message
             </a>
-          </div>
+            <span class="flex absolute h-3 w-3 top-0 right-0 -mt-1 -mr-1">
+              <span
+                class="animate-ping absolute inline-flex h-full w-full rounded-full bg-yellow-300 opacity-75"
+              ></span>
+              <span
+                class="relative inline-flex rounded-full h-3 w-3 bg-yellow-500"
+              ></span>
+            </span>
+          </span>
         </div>
       </div>
       <div class="mt-6 hidden min-w-0 flex-1 sm:block md:hidden">
@@ -47,7 +48,7 @@
 </template>
 
 <script setup>
-import { EnvelopeIcon, PhoneIcon } from "@heroicons/vue/20/solid";
+import { EnvelopeIcon } from "@heroicons/vue/20/solid";
 
 const profile = {
   name: "Vivek Kumar",
