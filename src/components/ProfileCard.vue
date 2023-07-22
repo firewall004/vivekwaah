@@ -1,12 +1,7 @@
 <template>
   <div>
-    <div>
-      <img
-        class="h-32 w-full object-cover lg:h-48"
-        :src="profile.backgroundImage"
-        alt=""
-      />
-    </div>
+    <div class="h-32 w-full object-cover lg:h-48" />
+	
     <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
       <div class="-mt-12 sm:-mt-16 sm:flex sm:items-end sm:space-x-5">
         <div class="flex">
