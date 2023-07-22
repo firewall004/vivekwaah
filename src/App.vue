@@ -1,11 +1,11 @@
 <template>
-  <div class="min-h-full">
-    <main class="-mt-24 pb-8">
+  <div class="h-screen">
+    <main>
       <div class="mx-auto w-full">
         <profile-card />
       </div>
       <div class="relative isolate px-6 lg:px-8 select-none">
-        <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+        <div class="mx-auto py-32 sm:py-44 lg:py-52">
           <div class="text-center">
             <div class="flex items-center justify-center">
               <div class="w-max">
@@ -26,7 +26,7 @@
                 </h1>
               </div>
             </div>
-            <p class="mt-6 text-lg leading-8 text-gray-500 drop-shadow-2xl">
+            <p class="mt-6 text-lg leading-8 text-gray-500">
               Passionate about clean and elegant code, dedicated to delivering
               seamless user experiences
             </p>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="h-32 w-full object-cover lg:h-48" />
+    <div class="h-24 w-full object-cover" />
 
     <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
       <div class="-mt-12 sm:-mt-16 sm:flex sm:items-end sm:space-x-5">
