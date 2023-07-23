@@ -47,8 +47,8 @@
 </template>
 
 <script setup>
-import ProfileCard from "./components/ProfileCard.vue";
-import AppFooter from "./components/common/AppFooter.vue";
+import ProfileCard from "@/components/ProfileCard.vue";
+import AppFooter from "@/components/common/AppFooter.vue";
 </script>
 
 <style scoped>
