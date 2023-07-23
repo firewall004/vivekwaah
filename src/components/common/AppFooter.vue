@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-zinc-900 mt-auto bottom-0 w-full select-none">
+  <footer class="bg-zinc-900 mt-auto bottom-0 w-full select-none font-mono">
     <div class="mx-auto max-w-7xl overflow-hidden px-6 py-6 lg:px-8">
       <div class="mt-10 flex justify-center space-x-10">
         <social-links />

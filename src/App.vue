@@ -5,14 +5,17 @@
         <profile-card />
       </div>
       <div class="relative isolate px-6 lg:px-8 select-none">
-        <div class="mx-auto py-32 sm:py-44 lg:py-52">
+        <div class="mx-auto pt-16 pb-4 sm:pt-32 sm:pb-60">
           <div class="text-center">
             <div class="flex items-center justify-center">
               <div class="w-max">
                 <h1
                   class="mb-2 overflow-hidden font-mono text-4xl dark:text-gray-400 md:text-6xl"
                 >
-                  hi<span class="text-yellow-700">,</span> I<span class="text-yellow-700">'</span>m <br class="block md:hidden" />
+                  Hi<span class="text-yellow-700">,</span> I<span
+                    class="text-yellow-700"
+                    >'</span
+                  >m <br class="block md:hidden" />
                   <span class="relative">
                     <span
                       class="overflow-x-hidden whitespace-nowrap pt-2 text-brand-accent text-yellow-700"
@@ -26,7 +29,12 @@
                 </h1>
               </div>
             </div>
-            <p class="mt-6 text-lg leading-8 text-gray-500">
+            <p
+              class="mt-6 text-lg leading-8 text-gray-500 font-mono tracking-wide brightness-100 scale-150"
+            >
+              {{ '<Web Developer />' }}
+            </p>
+            <p class="mt-16 text-lg leading-8 text-gray-500 font-mono">
               Passionate about clean and elegant code, dedicated to delivering
               seamless user experiences
             </p>
@@ -39,10 +47,8 @@
 </template>
 
 <script setup>
-
 import ProfileCard from "./components/ProfileCard.vue";
 import AppFooter from "./components/common/AppFooter.vue";
-
 </script>
 
 <style scoped>

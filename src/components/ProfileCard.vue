@@ -12,20 +12,20 @@
           />
         </div>
         <div
-          class="mt-1 sm:flex sm:min-w-0 sm:flex-1 sm:items-center sm:justify-end sm:space-x-6 sm:pb-1 mb-6"
+          class="mt-4 sm:flex sm:min-w-0 sm:flex-1 sm:items-center sm:justify-end sm:space-x-6 sm:pb-1 mb-6"
         >
           <span class="relative inline-flex">
             <a
               type="button"
               :href="'mailto:' + profile.email"
               target="_blank"
-              class="inline-flex items-center px-4 py-2 font-semibold leading-6 text-sm shadow rounded-md hover:text-gray-900 hover:bg-zinc-200 transition ease-in-out duration-75 ring-1 ring-slate-900/10 dark:ring-slate-200/20  delay-150 hover:-translate-y-1 hover:scale-110 bg-zinc-800 text-zinc-100 md:transition-all"
+              class="inline-flex items-center px-4 py-2 font-semibold leading-6 text-sm shadow rounded-md hover:text-gray-900 hover:bg-zinc-200 transition ease-in-out duration-75 ring-1 ring-slate-900/10 dark:ring-slate-200/20 delay-150 hover:-translate-y-1 hover:scale-110 bg-zinc-800 text-zinc-100 md:transition-all font-mono"
             >
               <EnvelopeIcon
                 class="-ml-0.5 mr-1.5 h-5 w-5 text-yellow-600"
                 aria-hidden="true"
               />
-              Message
+              Let's Talk
             </a>
             <span class="flex absolute h-3 w-3 top-0 right-0 -mt-1 -mr-1">
               <span
